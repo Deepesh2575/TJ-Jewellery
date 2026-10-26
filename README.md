@@ -1,6 +1,6 @@
-# TJ Jewellery
+# PJ Jewellery
 
-A responsive demo storefront for TJ Jewellery, designed with a warm, editorial look and a focus on everyday fine jewellery.
+A responsive demo storefront for PJ Jewellery, designed with a warm, editorial look and a focus on everyday fine jewellery.
 
 ## Features
 
