@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover thoughtful, timeless jewellery at TJ Jewellery. Made to be worn, loved, and passed on."
+    />
+    <meta name="theme-color" content="#f8f6f1" />
+    <title>TJ Jewellery — A little forever</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Complimentary shipping on orders over $150</span>
+      <span class="announcement-divider" aria-hidden="true">✳</span>
+      <span>Thoughtfully made, always</span>
+    </div>
+
+    <header class="site-header">
+      <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav nav-left" aria-label="Main navigation">
+        <a href="#shop">Shop</a>
+        <a href="#story">Our story</a>
+        <a href="#craft">The details</a>
+      </nav>
+      <a class="wordmark" href="#" aria-label="TJ Jewellery home">
+        <span class="wordmark-main">TJ</span>
+        <span class="wordmark-sub">JEWELLERY</span>
+      </a>
+      <nav class="nav nav-right" aria-label="Shopping navigation">
+        <a class="search-link" href="#shop">Search</a>
+        <a class="account-link" href="#newsletter">Contact</a>
+        <button class="bag-button" type="button" aria-label="Shopping bag, 0 items">
+          Bag <span class="bag-count">0</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Gold jewellery styled in warm afternoon light"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> SMALL MOMENTS, MADE GOLDEN</p>
+          <h1 id="hero-title">A little<br />piece of <em>forever.</em></h1>
+          <p class="hero-copy">
+            Jewellery for the everyday magic. Thoughtfully designed to feel like you, only a little more.
+          </p>
+          <a class="button button-dark" href="#shop">Find your forever <span aria-hidden="true">↗</span></a>
+          <div class="hero-note">
+            <span class="note-star" aria-hidden="true">✳</span>
+            <span>Made for your<br />every day</span>
+          </div>
+        </div>
+        <div class="hero-caption"><span>01 / 03</span><span>THE EVERYDAY EDIT</span></div>
+      </section>
+
+      <section class="intro-strip" id="story">
+        <p>For the days you’ll remember <span aria-hidden="true">✳</span> and the ones you’ll make.</p>
+        <a href="#craft">A little about us <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="shop-section section-wrap" id="shop">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">YOUR NEW EVERYDAY</p>
+            <h2>Pieces to <em>keep close.</em></h2>
+          </div>
+          <a class="text-link desktop-link" href="#shop">Shop all jewellery <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter products">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All pieces <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="necklaces" aria-pressed="false">Necklaces</button>
+          <button class="filter-button" type="button" data-filter="earrings" aria-pressed="false">Earrings</button>
+          <button class="filter-button" type="button" data-filter="rings" aria-pressed="false">Rings</button>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-category="necklaces">
+            <a class="product-image image-one" href="#newsletter" aria-label="Discover the Sol pendant necklace">
+              <span class="product-badge">BESTSELLER</span>
+              <span class="quick-view">Meet Sol <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Sol Pendant</h3><p>14k gold vermeil</p></div>
+              <span class="price">$128</span>
+            </div>
+            <button class="add-button" type="button" data-product="The Sol Pendant" data-price="128">Add to bag <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="earrings">
+            <a class="product-image image-two" href="#newsletter" aria-label="Discover the Sunday hoops">
+              <span class="quick-view">Meet Sunday <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Sunday Hoops</h3><p>Recycled sterling silver</p></div>
+              <span class="price">$96</span>
+            </div>
+            <button class="add-button" type="button" data-product="The Sunday Hoops" data-price="96">Add to bag <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="rings">
+            <a class="product-image image-three" href="#newsletter" aria-label="Discover the Margot signet ring">
+              <span class="product-badge badge-soft">JUST LANDED</span>
+              <span class="quick-view">Meet Margot <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Margot Signet</h3><p>14k gold vermeil</p></div>
+              <span class="price">$112</span>
+            </div>
+            <button class="add-button" type="button" data-product="The Margot Signet" data-price="112">Add to bag <span aria-hidden="true">+</span></button>
+          </article>
+          <article class="product-card" data-category="earrings">
+            <a class="product-image image-four" href="#newsletter" aria-label="Discover the little things studs">
+              <span class="quick-view">Meet Little Things <span aria-hidden="true">↗</span></span>
+            </a>
+            <div class="product-info">
+              <div><h3>The Little Things</h3><p>Freshwater pearl · gold</p></div>
+              <span class="price">$84</span>
+            </div>
+            <button class="add-button" type="button" data-product="The Little Things" data-price="84">Add to bag <span aria-hidden="true">+</span></button>
+          </article>
+        </div>
+        <a class="text-link mobile-link" href="#newsletter">Shop all jewellery <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="craft-section" id="craft">
+        <div class="craft-image" role="img" aria-label="A close-up of beautifully crafted gold jewellery"></div>
+        <div class="craft-copy">
+          <p class="eyebrow">GOOD THINGS, MADE BETTER</p>
+          <h2>Made with care.<br /><em>Worn with love.</em></h2>
+          <p>We believe the best things aren’t rushed. Each piece is made in small batches with recycled metals and considered details, so you can feel good about what you wear.</p>
+          <a class="button button-outline" href="#newsletter">Our way of making <span aria-hidden="true">↗</span></a>
+          <div class="craft-stamp" aria-hidden="true"><span>THOUGHTFULLY<br />MADE</span><b>✳</b></div>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <p class="eyebrow">KIND WORDS, FROM YOU</p>
+        <div class="quote-stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“The kind of jewellery you forget you’re wearing, until someone asks where you got it.”</blockquote>
+        <p class="quote-author">ELLA R. <span>·</span> VERIFIED CUSTOMER</p>
+        <div class="quote-dots" aria-hidden="true"><span class="selected"></span><span></span><span></span></div>
+      </section>
+
+      <section class="newsletter-section" id="newsletter">
+        <div>
+          <p class="eyebrow">A NOTE FROM US TO YOU</p>
+          <h2>A little lovely<br /><em>in your inbox.</em></h2>
+        </div>
+        <form class="newsletter-form">
+          <label for="email">Good things, new pieces, and 10% off your first order.</label>
+          <div class="email-field">
+            <input id="email" name="email" type="email" placeholder="Your email address" required />
+            <button type="submit" aria-label="Subscribe to newsletter">Join us <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="form-message" aria-live="polite">No noise, just the nice things. Unsubscribe whenever.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="wordmark footer-wordmark" href="#" aria-label="TJ Jewellery home">
+          <span class="wordmark-main">TJ</span><span class="wordmark-sub">JEWELLERY</span>
+        </a>
+        <p>Little treasures for a life well lived.</p>
+        <div class="footer-links"><a href="#shop">Instagram ↗</a><a href="mailto:hello@tjjewellery.com">Get in touch ↗</a></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 TJ Jewellery. Made with a little love.</span><div><a href="#newsletter">Shipping & returns</a><a href="#newsletter">Care guide</a></div><span>MADE TO MEAN SOMETHING.</span></div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
